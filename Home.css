@@ -1,0 +1,60 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 694px;
+}
+
+.u-section-1 .u-line-1 {
+  left: auto;
+  top: 2px;
+  height: 690px;
+  transform-origin: center top;
+  position: absolute;
+  width: 3px;
+  right: 546px;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  font-size: 1.875rem;
+  font-weight: 700;
+  font-family: McLaren;
+  background-image: linear-gradient(136deg, #4a7eb4, #b1cfea);
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  margin: 146px auto 0 39px;
+  padding: 21px 111px 22px 109px;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: solid;
+  font-size: 1.875rem;
+  font-weight: 700;
+  font-family: McLaren;
+  background-image: linear-gradient(136deg, #4a7eb4, #b1cfea);
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  margin: 13px 84px 0 auto;
+  padding: 16px 86px 17px 84px;
+}
+
+.u-section-1 .u-btn-3 {
+  border-style: solid;
+  font-size: 1.875rem;
+  font-weight: 700;
+  font-family: McLaren;
+  background-image: linear-gradient(136deg, #4a7eb4, #b1cfea);
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  margin: 24px auto 60px 39px;
+  padding: 21px 117px 22px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-btn-1 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,95 @@
+<html lang='en' >
+ 
+      <head>
+        <meta charset='UTF-8'>
+        <title>Options</title>
+        <link rel='stylesheet' href='cstyle.scss'>
+        <link rel='stylesheet' href='https://unpkg.com/purecss@2.0.6/build/pure-min.css' integrity='sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5' crossorigin='anonymous'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+      </head>
+      <body>
+      <!-- partial:index.partial.html -->
+      
+                      
+            <style scoped=''>
+                .button-success,
+                .button-error,
+                .button-warning,
+                .button-secondary {
+                    color: white;
+                    border-radius: 44px;
+                    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    
+                    width: 375px;
+                   
+                    margin-left: 36%;
+                   margin:auto;
+                }
+                body{ 
+	font: normal 13px/20px Arial, Helvetica, sans-serif; word-wrap:break-word;
+	
+  padding-top: 200px;
+  height:72vh;
+    margin: auto;}
+                h1{
+    text-align: center;
+    margin-top: -150px;
+	margin-bottom: 50px;
+	color: #fff;
+	font-weight: 500;
+    font-size: 35px;
+	font-family: 'Montserrat', sans-serif;}
+
+        
+               
+        
+                .button-secondary {
+                    background: rgb(52, 87, 241);
+                    /* this is a light blue */
+                    
+                    font-size: 25px;
+                }
+            </style>
+            <body>
+            <h1>Choose an Option</h1>
+            <form action='connect12.php' method="POST">
+               
+                <input type="submit"class='button-secondary pure-button' name="submit_1" value="Report between two dates">
+                
+            </form>
+            <form action='connect14.php' method="POST">
+               
+              <input type="submit"class='button-secondary pure-button' name="submit_2" value="Daily Report">
+              
+          </form>
+          <form action='connect12.php' method="POST">
+               
+            <input type="submit"class='button-secondary pure-button' name="submit_3" value="Slot Details">
+            
+        </form>
+        <form action='connect15.php' method="POST">
+               
+          <input type="submit"class='button-secondary pure-button' name="submit_4" value="Number of Vehicles Processed">
+          
+      </form>
+         
+      <form action='connect12.php' method="POST">
+               
+        <input type="submit"class='button-secondary pure-button' name="submit_5" value="Owner of a Vehicle">
+        
+    </form>
+    <form action='connect12.php' method="POST">
+               
+      <input type="submit"class='button-secondary pure-button' name="submit_6" value="Drivers of a Vehicle">
+      
+  </form>
+    <a href='home.html' class='button-secondary pure-button'>Logout</a>
+       </body>    
+            
+           
+        </div>
+        </body>
+        </html>

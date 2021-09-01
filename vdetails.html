@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Vehicle Registration</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/montserrat-font.css">
+	<link rel="stylesheet" type="text/css" href="../fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="vstyle.css"/>
+</head>
+<body class="form-v10">
+	<div class="page-content">
+		<div class="form-v10-content">
+			<form class="form-detail" action="connect.php" method="post">
+				<div class="form-left">
+					<h2>Owner Information</h2>
+					
+					
+						<div class="form-row">
+							<input type="text" name="nam"   placeholder="Name" maxlength="45" required>
+						</div>
+						
+					
+					
+					<div class="form-row">
+						<select name="idp">
+						    <option value="AADHAR">Aadhar</option>
+						    <option value="PASSPORT">Passport</option>
+							<option value="DL">DL</option>
+						    
+						</select>
+						<span class="select-btn">
+						  	<i class="zmdi zmdi-chevron-down"></i>
+						</span>
+					</div>
+					<div class="form-row">
+						<input type="text" name="IDN"  placeholder="ID Number" maxlength="15" required>
+					</div>
+					<div class="form-row">
+						<input type="text" name="num"  placeholder="Phone Number" maxlength='10'required>
+					</div>
+					<div class="form-row">
+						<input type="text" name="add"  placeholder="Address" maxlength="45" required>
+					</div>
+				</div>
+				<div class="form-right">
+					<h2>Vehicle Details</h2>
+					<div class="form-row">
+						<input type="text" name="V"  placeholder="Vehicle Number" maxlength="10" required>
+					</div>
+					<div class="form-row form-row-1">
+						<select name="F">
+						    <option value="PETROL">Petrol</option>
+						    <option value="DIESEL">Diesel</option>
+						    
+						</select>
+						<span class="select-btn">
+						  	<i class="zmdi zmdi-chevron-down"></i>
+						</span>
+					</div>
+                    <div class="form-row form-row-2">
+						<select name="T">
+						    <option value="BIKE">Bike</option>
+						    <option value="CAR">Car</option>
+						    
+						</select>
+						<span class="select-btn">
+						  	<i class="zmdi zmdi-chevron-down"></i>
+						</span>
+					</div>
+                    <div class="form-row">
+						<input type="text" name="C"  placeholder="Company" maxlength="15" required>
+					</div>
+					
+					<div class="form-row">
+						<input type="text" name="M"  placeholder="Model" maxlength="10" required>
+					</div>
+					<div class="form-row">
+						<input type="text" name="Co"  placeholder="Color" maxlength="10" required>
+					</div>
+					
+					<div class="form-row">
+						<input type="text" name="E"  placeholder="Engine Number" maxlength="11" required>
+					</div>
+					<div class="form-row">
+						<input type="text" name="Ch"  placeholder="Chassis Number" maxlength="17" required>
+					</div>
+					
+					<div class="form-row-last">
+						<input type="submit" class="register" value="Register">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
